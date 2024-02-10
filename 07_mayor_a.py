@@ -10,7 +10,7 @@ umbral especificado.
 
 Ejemplo: 
 
-python mayor_a.py 40000
+python 07_mayor_a.py 40000
 {'Mayo': 81000, 'Agosto': 41200, 'Noviembre': 91000}
 '''
 
