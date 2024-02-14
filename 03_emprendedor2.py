@@ -1,21 +1,12 @@
 '''
 
-Un emprendedor quiere crear una app que provea un servicio de entrega de comida para mascotas.
-Este proyecto tiene buenos pronósticos, pero su éxito dependerá de cuántos usuarios pueda alcanzar.
-La manera en la que se medirá esto es calculando las utilidades del proyecto. 
-Estas utilidades se pueden calcular mediante la siguiente fórmula:
-
-𝑈𝑡𝑖𝑙𝑖𝑑𝑎𝑑𝑒𝑠 = 𝑃 ∗ 𝑈 − 𝐺𝑇
-Donde:
-P: Precio de Suscripción
-U: Número de Usuarios
-GT: Gastos Totales
-Para ello, se te pide desarrollar este cálculo en tres versiones.
-
-Crear el programa emprendedor1.py que utilice la fórmula descrita anteriormente
-para calcular las utilidades de un proyecto. Para ello utiliza input() 
-para solicitar como dato el precio de suscripción P, el número de usuarios U y el gasto total GT.
-(5 Puntos)
+Supongamos ahora que el emprendedor considera 2 tipos de usuarios diferenciados,
+los usuarios normales y los usuarios premium a los cuales se les cobrará una
+suscripción un 50% mayor. Crea una segunda versión llamada emprendedor2.py que
+permita considerar el caso recién expuesto. Para ello modifica la fórmula de utilidades
+en la cual se solicite mediante input() los parámetros de entrada precios de
+suscripción P, así como el número de usuarios Unormal y Upremium y el gasto total GT.
+(3 Puntos)
 '''
 
 import math
